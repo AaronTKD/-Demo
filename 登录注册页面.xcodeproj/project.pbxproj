@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F40878B91C91710900F42238 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F40878B81C91710900F42238 /* main.m */; };
+		F40878BC1C91710900F42238 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F40878BB1C91710900F42238 /* AppDelegate.m */; };
+		F40878C41C91710900F42238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40878C31C91710900F42238 /* Assets.xcassets */; };
+		F40878C71C91710900F42238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40878C51C91710900F42238 /* LaunchScreen.storyboard */; };
+		F40878D21C91710900F42238 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F40878D11C91710900F42238 /* ______Tests.m */; };
+		F40878DD1C91710900F42238 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F40878DC1C91710900F42238 /* ______UITests.m */; };
+		F40878EE1C9172FE00F42238 /* AaroPhoneNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = F40878ED1C9172FE00F42238 /* AaroPhoneNumberView.m */; };
+		F40878F11C91770B00F42238 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F40878F01C91770B00F42238 /* BaseViewController.m */; };
+		F44D43051C925F3100042835 /* UIView+Additon.m in Sources */ = {isa = PBXBuildFile; fileRef = F44D43041C925F3100042835 /* UIView+Additon.m */; };
+		F44D43091C92604D00042835 /* login_phone.png in Resources */ = {isa = PBXBuildFile; fileRef = F44D43061C92604D00042835 /* login_phone.png */; };
+		F44D430A1C92604D00042835 /* login_phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F44D43071C92604D00042835 /* login_phone@2x.png */; };
+		F44D430B1C92604D00042835 /* login_phone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F44D43081C92604D00042835 /* login_phone@3x.png */; };
+		F44D430E1C92654900042835 /* AaroPassWordView.m in Sources */ = {isa = PBXBuildFile; fileRef = F44D430D1C92654900042835 /* AaroPassWordView.m */; };
+		F44D43111C92694200042835 /* login_Locked@.png in Resources */ = {isa = PBXBuildFile; fileRef = F44D430F1C92694200042835 /* login_Locked@.png */; };
+		F44D43121C92694200042835 /* login_Locked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F44D43101C92694200042835 /* login_Locked@3x.png */; };
+		F44D43161C926EC100042835 /* password_open.png in Resources */ = {isa = PBXBuildFile; fileRef = F44D43131C926EC100042835 /* password_open.png */; };
+		F44D43171C926EC100042835 /* password_open@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F44D43141C926EC100042835 /* password_open@2x.png */; };
+		F44D43181C926EC100042835 /* password_open@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F44D43151C926EC100042835 /* password_open@3x.png */; };
+		F44D431C1C926FDC00042835 /* password_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F44D43191C926FDC00042835 /* password_close@2x.png */; };
+		F44D431D1C926FDC00042835 /* password_password_close.png in Resources */ = {isa = PBXBuildFile; fileRef = F44D431A1C926FDC00042835 /* password_password_close.png */; };
+		F44D431E1C926FDC00042835 /* password_password_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F44D431B1C926FDC00042835 /* password_password_close@3x.png */; };
+		F44D43271C927ECA00042835 /* AaroForgetPasswordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F44D43261C927ECA00042835 /* AaroForgetPasswordButton.m */; };
+		F44D432A1C92818F00042835 /* AaroGuideButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F44D43291C92818F00042835 /* AaroGuideButton.m */; };
+		F44D432D1C928F9000042835 /* AaroCancelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F44D432C1C928F9000042835 /* AaroCancelButton.m */; };
+		F44D43371C92943900042835 /* aaro_close.png in Resources */ = {isa = PBXBuildFile; fileRef = F44D43341C92943900042835 /* aaro_close.png */; };
+		F44D43381C92943900042835 /* aaro_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F44D43351C92943900042835 /* aaro_close@2x.png */; };
+		F44D43391C92943900042835 /* aaro_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F44D43361C92943900042835 /* aaro_close@3x.png */; };
+		F44D43421C92A6DD00042835 /* AaroVerificationCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F44D43411C92A6DD00042835 /* AaroVerificationCodeView.m */; };
+		F44D43461C92A94B00042835 /* login_code.png in Resources */ = {isa = PBXBuildFile; fileRef = F44D43431C92A94B00042835 /* login_code.png */; };
+		F44D43471C92A94B00042835 /* login_code@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F44D43441C92A94B00042835 /* login_code@2x.png */; };
+		F44D43481C92A94B00042835 /* login_code@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F44D43451C92A94B00042835 /* login_code@3x.png */; };
+		F44D434C1C92BB2F00042835 /* AaroAgreementView.m in Sources */ = {isa = PBXBuildFile; fileRef = F44D434B1C92BB2F00042835 /* AaroAgreementView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F40878CE1C91710900F42238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40878AC1C91710900F42238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40878B31C91710900F42238;
+			remoteInfo = "登录注册页面";
+		};
+		F40878D91C91710900F42238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40878AC1C91710900F42238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40878B31C91710900F42238;
+			remoteInfo = "登录注册页面";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F40878B41C91710900F42238 /* 登录注册页面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "登录注册页面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40878B81C91710900F42238 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F40878BA1C91710900F42238 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F40878BB1C91710900F42238 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F40878C31C91710900F42238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F40878C61C91710900F42238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F40878C81C91710900F42238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40878CD1C91710900F42238 /* 登录注册页面Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "登录注册页面Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40878D11C91710900F42238 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		F40878D31C91710900F42238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40878D81C91710900F42238 /* 登录注册页面UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "登录注册页面UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40878DC1C91710900F42238 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		F40878DE1C91710900F42238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40878EC1C9172FE00F42238 /* AaroPhoneNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AaroPhoneNumberView.h; sourceTree = "<group>"; };
+		F40878ED1C9172FE00F42238 /* AaroPhoneNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AaroPhoneNumberView.m; sourceTree = "<group>"; };
+		F40878EF1C91770B00F42238 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F40878F01C91770B00F42238 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F44D43031C925F3100042835 /* UIView+Additon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Additon.h"; path = "../UIView+Additon.h"; sourceTree = "<group>"; };
+		F44D43041C925F3100042835 /* UIView+Additon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Additon.m"; path = "../UIView+Additon.m"; sourceTree = "<group>"; };
+		F44D43061C92604D00042835 /* login_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_phone.png; sourceTree = "<group>"; };
+		F44D43071C92604D00042835 /* login_phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_phone@2x.png"; sourceTree = "<group>"; };
+		F44D43081C92604D00042835 /* login_phone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_phone@3x.png"; sourceTree = "<group>"; };
+		F44D430C1C92654900042835 /* AaroPassWordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AaroPassWordView.h; sourceTree = "<group>"; };
+		F44D430D1C92654900042835 /* AaroPassWordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AaroPassWordView.m; sourceTree = "<group>"; };
+		F44D430F1C92694200042835 /* login_Locked@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_Locked@.png"; sourceTree = "<group>"; };
+		F44D43101C92694200042835 /* login_Locked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_Locked@3x.png"; sourceTree = "<group>"; };
+		F44D43131C926EC100042835 /* password_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password_open.png; sourceTree = "<group>"; };
+		F44D43141C926EC100042835 /* password_open@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password_open@2x.png"; sourceTree = "<group>"; };
+		F44D43151C926EC100042835 /* password_open@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password_open@3x.png"; sourceTree = "<group>"; };
+		F44D43191C926FDC00042835 /* password_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password_close@2x.png"; sourceTree = "<group>"; };
+		F44D431A1C926FDC00042835 /* password_password_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password_password_close.png; sourceTree = "<group>"; };
+		F44D431B1C926FDC00042835 /* password_password_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password_password_close@3x.png"; sourceTree = "<group>"; };
+		F44D43251C927ECA00042835 /* AaroForgetPasswordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AaroForgetPasswordButton.h; sourceTree = "<group>"; };
+		F44D43261C927ECA00042835 /* AaroForgetPasswordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AaroForgetPasswordButton.m; sourceTree = "<group>"; };
+		F44D43281C92818F00042835 /* AaroGuideButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AaroGuideButton.h; sourceTree = "<group>"; };
+		F44D43291C92818F00042835 /* AaroGuideButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AaroGuideButton.m; sourceTree = "<group>"; };
+		F44D432B1C928F9000042835 /* AaroCancelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AaroCancelButton.h; sourceTree = "<group>"; };
+		F44D432C1C928F9000042835 /* AaroCancelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AaroCancelButton.m; sourceTree = "<group>"; };
+		F44D43341C92943900042835 /* aaro_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aaro_close.png; sourceTree = "<group>"; };
+		F44D43351C92943900042835 /* aaro_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aaro_close@2x.png"; sourceTree = "<group>"; };
+		F44D43361C92943900042835 /* aaro_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aaro_close@3x.png"; sourceTree = "<group>"; };
+		F44D43401C92A6DD00042835 /* AaroVerificationCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AaroVerificationCodeView.h; sourceTree = "<group>"; };
+		F44D43411C92A6DD00042835 /* AaroVerificationCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AaroVerificationCodeView.m; sourceTree = "<group>"; };
+		F44D43431C92A94B00042835 /* login_code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_code.png; sourceTree = "<group>"; };
+		F44D43441C92A94B00042835 /* login_code@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_code@2x.png"; sourceTree = "<group>"; };
+		F44D43451C92A94B00042835 /* login_code@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_code@3x.png"; sourceTree = "<group>"; };
+		F44D434A1C92BB2F00042835 /* AaroAgreementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AaroAgreementView.h; sourceTree = "<group>"; };
+		F44D434B1C92BB2F00042835 /* AaroAgreementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AaroAgreementView.m; sourceTree = "<group>"; };
+		F4FD52D71C93A54900E76F72 /* AaroControlKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AaroControlKit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F40878B11C91710900F42238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40878CA1C91710900F42238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40878D51C91710900F42238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F40878AB1C91710900F42238 = {
+			isa = PBXGroup;
+			children = (
+				F44D433A1C929AC600042835 /* 手机号输入框 */,
+				F44D433B1C929AD900042835 /* 密码输入框 */,
+				F44D433C1C929AED00042835 /* 忘记密码 */,
+				F44D433D1C929AFD00042835 /* 登录注册流程按钮 */,
+				F44D433E1C929B0E00042835 /* 取消按钮 */,
+				F44D433F1C92A65500042835 /* 验证码 */,
+				F44D43491C92BB0900042835 /* 协议 */,
+				F44D43341C92943900042835 /* aaro_close.png */,
+				F44D43351C92943900042835 /* aaro_close@2x.png */,
+				F44D43361C92943900042835 /* aaro_close@3x.png */,
+				F44D430F1C92694200042835 /* login_Locked@.png */,
+				F44D43101C92694200042835 /* login_Locked@3x.png */,
+				F40878B61C91710900F42238 /* 登录注册页面 */,
+				F40878D01C91710900F42238 /* 登录注册页面Tests */,
+				F40878DB1C91710900F42238 /* 登录注册页面UITests */,
+				F40878B51C91710900F42238 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F40878B51C91710900F42238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F40878B41C91710900F42238 /* 登录注册页面.app */,
+				F40878CD1C91710900F42238 /* 登录注册页面Tests.xctest */,
+				F40878D81C91710900F42238 /* 登录注册页面UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F40878B61C91710900F42238 /* 登录注册页面 */ = {
+			isa = PBXGroup;
+			children = (
+				F40878BA1C91710900F42238 /* AppDelegate.h */,
+				F40878BB1C91710900F42238 /* AppDelegate.m */,
+				F40878EF1C91770B00F42238 /* BaseViewController.h */,
+				F40878F01C91770B00F42238 /* BaseViewController.m */,
+				F40878C31C91710900F42238 /* Assets.xcassets */,
+				F40878C51C91710900F42238 /* LaunchScreen.storyboard */,
+				F44D43431C92A94B00042835 /* login_code.png */,
+				F44D43441C92A94B00042835 /* login_code@2x.png */,
+				F44D43451C92A94B00042835 /* login_code@3x.png */,
+				F40878C81C91710900F42238 /* Info.plist */,
+				F44D43031C925F3100042835 /* UIView+Additon.h */,
+				F44D43041C925F3100042835 /* UIView+Additon.m */,
+				F44D43061C92604D00042835 /* login_phone.png */,
+				F44D43071C92604D00042835 /* login_phone@2x.png */,
+				F44D43081C92604D00042835 /* login_phone@3x.png */,
+				F44D43191C926FDC00042835 /* password_close@2x.png */,
+				F44D431A1C926FDC00042835 /* password_password_close.png */,
+				F44D431B1C926FDC00042835 /* password_password_close@3x.png */,
+				F44D43131C926EC100042835 /* password_open.png */,
+				F44D43141C926EC100042835 /* password_open@2x.png */,
+				F44D43151C926EC100042835 /* password_open@3x.png */,
+				F40878B71C91710900F42238 /* Supporting Files */,
+				F4FD52D71C93A54900E76F72 /* AaroControlKit.h */,
+			);
+			path = "登录注册页面";
+			sourceTree = "<group>";
+		};
+		F40878B71C91710900F42238 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F40878B81C91710900F42238 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F40878D01C91710900F42238 /* 登录注册页面Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F40878D11C91710900F42238 /* ______Tests.m */,
+				F40878D31C91710900F42238 /* Info.plist */,
+			);
+			path = "登录注册页面Tests";
+			sourceTree = "<group>";
+		};
+		F40878DB1C91710900F42238 /* 登录注册页面UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F40878DC1C91710900F42238 /* ______UITests.m */,
+				F40878DE1C91710900F42238 /* Info.plist */,
+			);
+			path = "登录注册页面UITests";
+			sourceTree = "<group>";
+		};
+		F44D433A1C929AC600042835 /* 手机号输入框 */ = {
+			isa = PBXGroup;
+			children = (
+				F40878EC1C9172FE00F42238 /* AaroPhoneNumberView.h */,
+				F40878ED1C9172FE00F42238 /* AaroPhoneNumberView.m */,
+			);
+			name = "手机号输入框";
+			sourceTree = "<group>";
+		};
+		F44D433B1C929AD900042835 /* 密码输入框 */ = {
+			isa = PBXGroup;
+			children = (
+				F44D430C1C92654900042835 /* AaroPassWordView.h */,
+				F44D430D1C92654900042835 /* AaroPassWordView.m */,
+			);
+			name = "密码输入框";
+			sourceTree = "<group>";
+		};
+		F44D433C1C929AED00042835 /* 忘记密码 */ = {
+			isa = PBXGroup;
+			children = (
+				F44D43251C927ECA00042835 /* AaroForgetPasswordButton.h */,
+				F44D43261C927ECA00042835 /* AaroForgetPasswordButton.m */,
+			);
+			name = "忘记密码";
+			sourceTree = "<group>";
+		};
+		F44D433D1C929AFD00042835 /* 登录注册流程按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				F44D43281C92818F00042835 /* AaroGuideButton.h */,
+				F44D43291C92818F00042835 /* AaroGuideButton.m */,
+			);
+			name = "登录注册流程按钮";
+			sourceTree = "<group>";
+		};
+		F44D433E1C929B0E00042835 /* 取消按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				F44D432B1C928F9000042835 /* AaroCancelButton.h */,
+				F44D432C1C928F9000042835 /* AaroCancelButton.m */,
+			);
+			name = "取消按钮";
+			sourceTree = "<group>";
+		};
+		F44D433F1C92A65500042835 /* 验证码 */ = {
+			isa = PBXGroup;
+			children = (
+				F44D43401C92A6DD00042835 /* AaroVerificationCodeView.h */,
+				F44D43411C92A6DD00042835 /* AaroVerificationCodeView.m */,
+			);
+			name = "验证码";
+			sourceTree = "<group>";
+		};
+		F44D43491C92BB0900042835 /* 协议 */ = {
+			isa = PBXGroup;
+			children = (
+				F44D434A1C92BB2F00042835 /* AaroAgreementView.h */,
+				F44D434B1C92BB2F00042835 /* AaroAgreementView.m */,
+			);
+			name = "协议";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F40878B31C91710900F42238 /* 登录注册页面 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40878E11C91710900F42238 /* Build configuration list for PBXNativeTarget "登录注册页面" */;
+			buildPhases = (
+				F40878B01C91710900F42238 /* Sources */,
+				F40878B11C91710900F42238 /* Frameworks */,
+				F40878B21C91710900F42238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "登录注册页面";
+			productName = "登录注册页面";
+			productReference = F40878B41C91710900F42238 /* 登录注册页面.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F40878CC1C91710900F42238 /* 登录注册页面Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40878E41C91710900F42238 /* Build configuration list for PBXNativeTarget "登录注册页面Tests" */;
+			buildPhases = (
+				F40878C91C91710900F42238 /* Sources */,
+				F40878CA1C91710900F42238 /* Frameworks */,
+				F40878CB1C91710900F42238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F40878CF1C91710900F42238 /* PBXTargetDependency */,
+			);
+			name = "登录注册页面Tests";
+			productName = "登录注册页面Tests";
+			productReference = F40878CD1C91710900F42238 /* 登录注册页面Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F40878D71C91710900F42238 /* 登录注册页面UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40878E71C91710900F42238 /* Build configuration list for PBXNativeTarget "登录注册页面UITests" */;
+			buildPhases = (
+				F40878D41C91710900F42238 /* Sources */,
+				F40878D51C91710900F42238 /* Frameworks */,
+				F40878D61C91710900F42238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F40878DA1C91710900F42238 /* PBXTargetDependency */,
+			);
+			name = "登录注册页面UITests";
+			productName = "登录注册页面UITests";
+			productReference = F40878D81C91710900F42238 /* 登录注册页面UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F40878AC1C91710900F42238 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = AaronTKD_GEELY;
+				TargetAttributes = {
+					F40878B31C91710900F42238 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					F40878CC1C91710900F42238 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F40878B31C91710900F42238;
+					};
+					F40878D71C91710900F42238 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F40878B31C91710900F42238;
+					};
+				};
+			};
+			buildConfigurationList = F40878AF1C91710900F42238 /* Build configuration list for PBXProject "登录注册页面" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F40878AB1C91710900F42238;
+			productRefGroup = F40878B51C91710900F42238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F40878B31C91710900F42238 /* 登录注册页面 */,
+				F40878CC1C91710900F42238 /* 登录注册页面Tests */,
+				F40878D71C91710900F42238 /* 登录注册页面UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F40878B21C91710900F42238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44D431E1C926FDC00042835 /* password_password_close@3x.png in Resources */,
+				F44D43161C926EC100042835 /* password_open.png in Resources */,
+				F44D43381C92943900042835 /* aaro_close@2x.png in Resources */,
+				F44D43111C92694200042835 /* login_Locked@.png in Resources */,
+				F44D43371C92943900042835 /* aaro_close.png in Resources */,
+				F44D43091C92604D00042835 /* login_phone.png in Resources */,
+				F44D430A1C92604D00042835 /* login_phone@2x.png in Resources */,
+				F44D43391C92943900042835 /* aaro_close@3x.png in Resources */,
+				F44D43171C926EC100042835 /* password_open@2x.png in Resources */,
+				F44D43481C92A94B00042835 /* login_code@3x.png in Resources */,
+				F40878C71C91710900F42238 /* LaunchScreen.storyboard in Resources */,
+				F44D43181C926EC100042835 /* password_open@3x.png in Resources */,
+				F44D430B1C92604D00042835 /* login_phone@3x.png in Resources */,
+				F44D431D1C926FDC00042835 /* password_password_close.png in Resources */,
+				F44D431C1C926FDC00042835 /* password_close@2x.png in Resources */,
+				F40878C41C91710900F42238 /* Assets.xcassets in Resources */,
+				F44D43121C92694200042835 /* login_Locked@3x.png in Resources */,
+				F44D43461C92A94B00042835 /* login_code.png in Resources */,
+				F44D43471C92A94B00042835 /* login_code@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40878CB1C91710900F42238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40878D61C91710900F42238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F40878B01C91710900F42238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40878EE1C9172FE00F42238 /* AaroPhoneNumberView.m in Sources */,
+				F40878F11C91770B00F42238 /* BaseViewController.m in Sources */,
+				F40878BC1C91710900F42238 /* AppDelegate.m in Sources */,
+				F44D432D1C928F9000042835 /* AaroCancelButton.m in Sources */,
+				F44D43051C925F3100042835 /* UIView+Additon.m in Sources */,
+				F44D43421C92A6DD00042835 /* AaroVerificationCodeView.m in Sources */,
+				F44D430E1C92654900042835 /* AaroPassWordView.m in Sources */,
+				F44D43271C927ECA00042835 /* AaroForgetPasswordButton.m in Sources */,
+				F44D434C1C92BB2F00042835 /* AaroAgreementView.m in Sources */,
+				F40878B91C91710900F42238 /* main.m in Sources */,
+				F44D432A1C92818F00042835 /* AaroGuideButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40878C91C91710900F42238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40878D21C91710900F42238 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40878D41C91710900F42238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40878DD1C91710900F42238 /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F40878CF1C91710900F42238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F40878B31C91710900F42238 /* 登录注册页面 */;
+			targetProxy = F40878CE1C91710900F42238 /* PBXContainerItemProxy */;
+		};
+		F40878DA1C91710900F42238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F40878B31C91710900F42238 /* 登录注册页面 */;
+			targetProxy = F40878D91C91710900F42238 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F40878C51C91710900F42238 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F40878C61C91710900F42238 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F40878DF1C91710900F42238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F40878E01C91710900F42238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F40878E21C91710900F42238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "登录注册页面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GEELY.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F40878E31C91710900F42238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "登录注册页面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GEELY.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F40878E51C91710900F42238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "登录注册页面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GEELY.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/登录注册页面.app/登录注册页面";
+			};
+			name = Debug;
+		};
+		F40878E61C91710900F42238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "登录注册页面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GEELY.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/登录注册页面.app/登录注册页面";
+			};
+			name = Release;
+		};
+		F40878E81C91710900F42238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "登录注册页面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GEELY.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "登录注册页面";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F40878E91C91710900F42238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "登录注册页面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GEELY.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "登录注册页面";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F40878AF1C91710900F42238 /* Build configuration list for PBXProject "登录注册页面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40878DF1C91710900F42238 /* Debug */,
+				F40878E01C91710900F42238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40878E11C91710900F42238 /* Build configuration list for PBXNativeTarget "登录注册页面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40878E21C91710900F42238 /* Debug */,
+				F40878E31C91710900F42238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40878E41C91710900F42238 /* Build configuration list for PBXNativeTarget "登录注册页面Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40878E51C91710900F42238 /* Debug */,
+				F40878E61C91710900F42238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40878E71C91710900F42238 /* Build configuration list for PBXNativeTarget "登录注册页面UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40878E81C91710900F42238 /* Debug */,
+				F40878E91C91710900F42238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F40878AC1C91710900F42238 /* Project object */;
+}
